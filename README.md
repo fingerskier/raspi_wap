@@ -21,3 +21,6 @@ Via Netowrk Manager activate WiFi hotspot and set it connect on boot
 - Setup nodejs express web-server
   - [https://nvm.sh](https://nvm.sh)
   - 
+
+- webmin
+
