@@ -2,7 +2,7 @@
 Raspberry Pi OS WAP setup
 
 
-## Genral Setup
+## General Setup
 
 `sudo raspi-config`
 - Select __Advanced Options__
@@ -24,3 +24,4 @@ Via Netowrk Manager activate WiFi hotspot and set it connect on boot
 
 - webmin
 
+- zerotier
