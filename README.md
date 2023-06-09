@@ -14,6 +14,12 @@ Plug in ethernet and establish connection
 Via Network Manager activate WiFi hotspot and set it connect on startup
 
 
+## Helps
+
+List connected devices:
+`sudo arp`
+
+
 ## Options
 
 - Setup MQTT broker
@@ -21,9 +27,9 @@ Via Network Manager activate WiFi hotspot and set it connect on startup
 
 - Setup nodejs express web-server
   - [https://nvm.sh](https://nvm.sh)
-  - 
 
 - webmin
+  - `sudo apt-get install webmin`
 
 - zerotier
 ```
