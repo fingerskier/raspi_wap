@@ -26,3 +26,17 @@ Via Network Manager activate WiFi hotspot and set it connect on startup
 - webmin
 
 - zerotier
+```
+sudo apt update
+sudo apt upgrade
+curl https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/doc/contact%40zerotier.com.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/zerotierone-archive-keyring.gpg >/dev/null
+RELEASE=$(lsb_release -cs)
+echo "deb [signed-by=/usr/share/keyrings/zerotierone-archive-keyring.gpg] http://download.zerotier.com/debian/$RELEASE $RELEASE main" | sudo tee /etc/apt/sources.list.d/zerotier.list
+sudo apt update
+sudo apt install -y zerotier-one
+sudo zerotier-cli join [NETWORKID]
+https://my.zerotier.com/network/[NETWORKID]
+sudo zerotier-cli listnetworks
+```
+
+ORIG: [https://pimylifeup.com/raspberry-pi-zerotier/](https://pimylifeup.com/raspberry-pi-zerotier/)
