@@ -7,10 +7,11 @@ Raspberry Pi OS WAP setup
 `sudo raspi-config`
 - Select __Advanced Options__
 - Select __Network Manager__
+- ...if it's not there you probably need to update/upgrade the system
 
 Plug in ethernet and establish connection
 
-Via Netowrk Manager activate WiFi hotspot and set it connect on boot
+Via Network Manager activate WiFi hotspot and set it connect on startup
 
 
 ## Options
