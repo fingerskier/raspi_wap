@@ -19,6 +19,9 @@ Via Network Manager activate WiFi hotspot and set it connect on startup
 List connected devices:
 `sudo arp`
 
+Give connected device details:
+`nmcli` <various options available>
+
 
 ## Options
 
